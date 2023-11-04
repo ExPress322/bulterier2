@@ -12,6 +12,8 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: var(--color-black);
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .w100 {
