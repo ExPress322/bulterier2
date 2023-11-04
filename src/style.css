@@ -1,0 +1,1021 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@400;500;600;700&display=swap');
+
+:root {
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-orange: #EB8A24;
+    --color-red: #FF3333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-black);
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w90 {
+    width: 90%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1148px;
+    margin: 0px auto;
+}
+
+.df {
+    display: flex;
+}
+
+.df-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.ta-s {
+    text-align: start;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-e {
+    text-align: end;
+}
+
+.ai-s {
+    align-items: start;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.ai-e {
+    align-items: end;
+}
+
+.jc-s {
+    justify-content: start;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-e {
+    justify-content: end;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.main_img {
+    background-image: url(img/main_img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.btn-red {
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border: 2px solid var(--color-red);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-red:hover {
+    background-color: var(--color-white);
+    color: var(--color-red);
+}
+
+.btn-empty {
+    border: 3px solid var(--color-black);
+    background-color: transparent;
+    width: 350px;
+    height: 70px;
+    font-family: Oswald;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 120%;
+    margin: 20px 0px;
+    transition: border 0.3s, background-color 0.3s;
+}
+
+.btn-empty:hover {
+    border: 3px solid var(--color-orange);
+    background-color: var(--color-orange);
+}
+
+.h3 {
+    margin: 30px 0px;
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-big {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.r-4 {
+    rotate: -4deg;
+}
+
+.r2 {
+    rotate: 2deg;
+}
+
+.number {
+    color: var(--color-orange);
+    font-family: Oswald;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 3.92px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.gap-100 {
+    gap: 100px;
+}
+
+.gap-r-20 {
+    row-gap: 20px;
+}
+
+.mw-760 {
+    max-width: 760px;
+}
+
+.mw-580 {
+    max-width: 580px;
+}
+
+.mw-390 {
+    max-width: 390px;
+}
+
+.mw-410 {
+    max-width: 410px;
+}
+
+.mw-460 {
+    max-width: 460px;
+}
+
+.pa {
+    position: absolute;
+}
+
+.facts-img-dog-left {
+    display: none;
+}
+
+.bg-company {
+    background-image: url(img/dog_vector.svg);
+    background-repeat: no-repeat;
+    background-position: -208% -35%;
+    background-size: 83%;
+    height: 636px;
+}
+
+.bg-facts {
+    background-image: url(img/dog-left.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.bg-mission {
+    background-image: url(img/fight.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-mission-fame {
+    background-image: url(img/whie-frame.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 100px 0px;
+}
+
+.summ-name {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.summ {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+}
+
+.summ-text {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.white {
+    color: var(--color-white);
+}
+
+.orange {
+    color: var(--color-orange);
+}
+
+.grey {
+    color: #6C6C6C;
+}
+
+.grey-dark {
+    color: #6E6A6A;;
+}
+
+.photo_card {
+    width: 320px;
+}
+
+
+.photo_card img {
+    box-shadow: 0px 5px 20px -12px var(--color-black);
+}
+
+.photo1 {
+    transform: rotate(-1deg);
+}
+
+.photo2 {
+    transform: rotate(2deg);
+}
+
+.photo3 {
+    transform: rotate(-0.5deg);
+}
+
+.bg-tokenization {
+    padding: 30px 0px;
+    background-image: url(img/dog_vector-left.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.tokenization_card {
+    width: 280px;
+}
+
+.number-big {
+    color: var(--color-orange);
+    font-family: Montserrat;
+    font-size: 170px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 204px */
+    text-transform: uppercase;
+}
+
+.action {
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 43.2px */
+    text-transform: uppercase;
+}
+
+.team_card {
+    width: 310px;
+}
+
+.team_card .name {
+    font-family: Oswald;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 31.2px */
+    text-transform: uppercase;
+}
+
+.team_card .post {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+}
+
+.token-h1 {
+    font-family: Oswald;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 55.2px */
+    letter-spacing: 3.22px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.token-h2 {
+    font-family: Oswald;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 31.2px */
+    text-transform: uppercase;
+}
+
+.token-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.token-price {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+}
+
+.token-price-old {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+    text-decoration-line: line-through;
+}
+
+.token-date {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+}
+
+.token-gap {
+    gap: 100px;
+    row-gap: 20px;
+}
+
+#company {
+    margin-top: -130px;
+    margin-bottom: -160px;
+}
+
+.lenta-container {
+    margin-top: -50px;
+    margin-bottom: -50px;
+    position: relative;
+    height: 375px;
+}
+
+.lenta-img {
+    height: 256px;
+}
+
+.lenta-first {
+    position: absolute;
+    -webkit-animation: scrollFirst 15s infinite linear;
+    -o-animation: scrollFirst 15s infinite linear;
+    animation: scrollFirst 15s infinite linear;
+}
+
+@keyframes scrollFirst {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+.lenta-second {
+    position: absolute;
+    -webkit-animation: scrollSecond 15s infinite linear;
+    -o-animation: scrollSecond 15s infinite linear;
+    animation: scrollSecond 15s infinite linear;
+}
+
+@keyframes scrollSecond {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.mv-100 {
+    margin: 100px 0px;
+}
+
+.mv-50 {
+    margin: 50px 0px;
+}
+
+.mv-25 {
+    margin: 25px 0px;
+}
+
+.mv-20 {
+    margin: 20px 0px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.ml-150 {
+    margin-left: 150px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-72 {
+    margin-bottom: 72px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10%;
+}
+
+.mobile {
+    display: none;
+}
+
+.slick-prev {
+    display: none !important;
+}
+
+.slick-next {
+    display: none !important;
+}
+
+.header {
+    height: 80px;
+}
+
+.header-username {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 120% */
+    margin-left: 5px;
+}
+
+.header-language {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px; /* 120% */
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: #363030;
+    padding: 5%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--color-white);
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: var(--color-red);
+}
+
+
+.partners {
+    color: var(--color-white);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+}
+
+.footer-link-big {
+    margin-bottom: 34px;
+    color: --color-white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+}
+
+.footer-link {
+    margin: 8px 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.footer-mark {
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+
+#fact {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container {
+        width: 940px;
+    }
+
+    .container {
+        width: 920px;
+    }
+
+    .token-gap {
+        gap: 50px;
+    }
+
+    .bg-company {
+        background-position: -100% 92%;
+        background-size: 68%;
+        height: 530px;
+    }
+
+    #company {
+        margin-top: -130px;
+        margin-bottom: -160px;
+    }
+
+    .lenta-container {
+        height: 315px;
+    }
+
+    .lenta-img {
+        height: 190px;
+    }
+
+    .bg-facts {
+        background-position: 165% 65%;
+    }
+
+    #fact {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 972px) {
+    .main-container {
+        width: 100%;
+    }
+
+    .container {
+        width: 96%;
+    }
+
+    .tablet-w100 {
+        width: 100%;
+    }
+
+    .tablet-w90 {
+        width: 90%;
+    }
+
+    .tablet-w92 {
+        width: 92%;
+    }
+
+    .tablet-w70 {
+        width: 70%;
+    }
+
+    .tablet-w30 {
+        width: 30%;
+    }
+
+    .main_img {
+        height: 600px;
+    }
+
+    .bg-company {
+        height: auto;
+        background-size: 60%;
+        background-position: -80% top; 
+    }
+
+    .bg-facts {
+        background-size: 62%;
+        background-position: 175% 65%;
+    }
+
+    .tablet-mb-34 {
+        margin-bottom: 34px;
+    }
+
+    .token-gap {
+        gap: 50px;
+        row-gap: 20px;
+    } 
+
+    #company {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .lenta-container {
+        height: 320px;
+    }
+
+    .lenta-img {
+        height: 180px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 100%;
+    }
+
+    .container {
+        width: 97%;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .mobile-w-90 {
+        width: 80%;
+    }
+
+    .mobile-w-80 {
+        width: 80%;
+    }
+
+    /* указать размер высоты первого блока
+    в зависимости от размера header */
+    .main_img {
+        height: 85vh;
+        width: 100%;
+    }
+
+    .btn-red {
+        width: 94%;
+        margin: 10px 0px;
+    }
+
+    .img_token {
+        width: 100px;
+    }
+
+    .bg-facts {
+        background-image: none;
+    }
+    
+    .ml-150 {
+        margin-left: 0;
+    }
+
+    .mv-100 {
+        margin: 50px 0px;
+    }
+
+    .bg-mission-fame {
+        padding: 25px 0px;
+    }
+
+    .mv-25 {
+        margin: 15px 0px;
+    }
+
+    .gap-50 {
+        gap: 20px;
+    }
+
+    .text-big {
+        font-size: 12px;
+    }
+
+    .summ-name {
+        font-size: 12px;
+    }
+
+    .summ {
+        font-size: 16px;
+    }
+
+    .summ-text {
+        font-size: 14px;
+    }
+
+    .number-big {
+        font-size: 110px;
+    }
+
+    .action {
+        font-size: 26px;
+    }
+
+    .gap-100 {
+        gap: 20px;
+    }
+
+    .gap-20 {
+        gap: 10px;
+    }
+
+    .mv-50 {
+        margin: 20px 0px;
+    }
+
+    .btn-empty {
+        font-size: 20px;
+        height: 48px;
+        width: 80%;
+    }
+
+    .photo_card {
+        width: 98%;
+    }
+
+    .bg-company {
+        background-image: url(img/dog_vector-left.svg);
+        background-size: 75%;
+        background-position: right bottom;
+        padding-top: 30px;
+        padding-bottom: 100px;
+        margin-bottom: -100px;
+    }
+
+    .h3 {
+        font-size: 26px;
+        margin: 15px 0px;
+    }
+
+    .number {
+        font-size: 36px;
+        margin: 0px;
+        margin-right: 10px;
+    }
+
+    .mobile-ai-s {
+        align-items: start;
+    }
+
+    .team_card {
+        width: 150px;
+    }
+
+    .team_card img {
+        width: 150px;
+    }
+
+    .team_card .name {
+        font-size: 18px;
+    }
+
+    .team_card .post {
+        font-size: 12px;
+    }
+
+    .watch-link {
+        width: 120px;
+    }
+
+    .mobile-mw-a {
+        max-width: none;
+    }
+
+    .lenta-container {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    
+    .mobile-mw-250 {
+        max-width: 250px;
+    }
+
+    .mw-760 {
+        max-width: none;
+    }
+    
+    .mw-580 {
+        max-width: none;
+    }
+    
+    .mw-390 {
+        max-width: none;
+    }
+    
+    .mw-410 {
+        max-width: none;
+    }
+    
+    .mw-460 {
+        max-width: none;
+    }
+
+    .photo_card img {
+        box-shadow: none;
+    }
+
+    .photo1 {
+        width: 80%;
+        margin: 10px 10% 10px 10%;
+    }
+
+    .photo2 {
+        width: 80%;
+        margin: 10px 10% 10px 10%;
+    }
+
+    .photo3 {
+        width: 80%;
+        margin: 10px 10% 10px 10%;
+    }
+    
+    .memory-slider-next {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        left: 94%;
+        top: 50%;
+    }
+
+    .mb-30 {
+        margin-bottom: 15px;
+    }
+
+    .mobile-p-r {
+        position: relative;
+    }
+
+    .lenta-container {
+        height: 220px;
+    }
+
+    .lenta-img {
+        height: 150px;
+    }
+
+    .mobile-header {
+        height: 60px;
+    }
+
+    #watch {
+        padding: 20px 0px;
+    }
+
+    .bg-tokenization {
+        padding: 0px;
+    }
+
+    .token-h2 {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #watch {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .bg-tokenization {
+        background: url(img/dog_vector-left.svg),url(img/dog_vector.svg);
+        background-position: 0% 20%, 536% 76%;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 300%, 110%;
+    }
+}
+
+.plus-text-h-43 {
+    height: 43px;
+    overflow: hidden;
+}
+
+.plus-text-h-a {
+    height: auto;
+}
+
+
+.btn-more {
+    align-self: center;
+}
