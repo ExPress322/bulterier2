@@ -921,8 +921,18 @@
     .lenta-container {
         margin-top: 20px;
         margin-bottom: 20px;
-        width: 890px;
+        width: 885px;
         height: 220px;
+    }
+
+    .lenta3 {
+        margin-top: -20px;
+        margin-bottom: -10px;
+    }
+
+    .lenta4 {
+        margin-top: 40px;
+        margin-bottom: -40px;
     }
     
     .mobile-mw-250 {
