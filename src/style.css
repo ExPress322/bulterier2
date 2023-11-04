@@ -12,8 +12,6 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: var(--color-black);
-    -webkit-appearance: none;
-    appearance: none;
 }
 
 .w100 {
@@ -462,10 +460,10 @@
 }
 
 .lenta-container {
-    margin-top: -50px;
-    margin-bottom: -50px;
+    margin-top: 100px;
+    margin-bottom: 90px;
     position: relative;
-    height: 375px;
+    height: 180px;
 }
 
 .lenta-img {
@@ -655,7 +653,7 @@
     .bg-company {
         background-position: -100% 92%;
         background-size: 68%;
-        height: 610px;
+        height: 530px;
     }
 
     #company {
@@ -664,7 +662,7 @@
     }
 
     .lenta-container {
-        height: 315px;
+        height: 175px;
     }
 
     .lenta-img {
@@ -678,6 +676,11 @@
 
     #fact {
         padding-top: 0px;
+    }
+
+    .bg-tokenization {
+        padding-top: 30px;
+        padding-bottom: 0px;
     }
 }
 
@@ -740,12 +743,16 @@
     }
 
     .lenta-container {
-        height: 320px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 204px;
+        width: 1065px;
     }
 
     .lenta-img {
         height: 180px;
     }
+
 }
 @media screen and (max-width: 768px) {
     .main-container {
@@ -907,8 +914,10 @@
     }
 
     .lenta-container {
-        margin-top: -10px;
-        margin-bottom: -10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 890px;
+        height: 220px;
     }
     
     .mobile-mw-250 {
@@ -968,10 +977,6 @@
 
     .mobile-p-r {
         position: relative;
-    }
-
-    .lenta-container {
-        height: 220px;
     }
 
     .lenta-img {
