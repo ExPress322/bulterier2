@@ -169,9 +169,9 @@
 
 .text {
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -262,7 +262,8 @@
 .bg-facts {
     background-image: url(img/dog-left.svg);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: 141% 55%;
+    background-size: 67%;
 }
 
 .bg-mission {
@@ -417,9 +418,9 @@
 
 .token-text {
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
 }
 
@@ -669,7 +670,8 @@
     }
 
     .bg-facts {
-        background-position: 165% 65%;
+        background-position: 105% 57%;
+        background-size: 48%;
     }
 
     #fact {
@@ -809,7 +811,7 @@
     }
 
     .text-big {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .summ-name {
@@ -989,6 +991,15 @@
     .token-h2 {
         margin: 10px 0px;
     }
+    
+    .plus-text-h-40 {
+        height: 40px;
+        overflow: hidden;
+    }
+    
+    .plus-text-h-a {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -1000,21 +1011,11 @@
 @media screen and (max-width: 405px) {
     .bg-tokenization {
         background: url(img/dog_vector-left.svg),url(img/dog_vector.svg);
-        background-position: 0% 20%, 536% 76%;
+        background-position: 0% 0%, 536% 76%;
         background-repeat: no-repeat, no-repeat;
         background-size: 300%, 110%;
     }
 }
-
-.plus-text-h-43 {
-    height: 43px;
-    overflow: hidden;
-}
-
-.plus-text-h-a {
-    height: auto;
-}
-
 
 .btn-more {
     align-self: center;

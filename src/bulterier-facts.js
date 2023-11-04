@@ -3,7 +3,7 @@ $(document).ready(function(){
         // + для фактов
         $(".btn-more").click(function() {
             var parent = $(this).parent();
-            var text = parent.find('.plus-text-h-43');
+            var text = parent.find('.plus-text-h-40');
             text.removeClass('plus-text-h-43').addClass('plus-text-h-a');
             $(this).remove()
         });
