@@ -637,6 +637,11 @@
     padding-top: 60px;
 }
 
+.spec-mt--30-mb-145 {
+    margin-top: -30px;
+    margin-bottom: 145px;
+}
+
 @media screen and (max-width: 1200px) {
     .main-container {
         width: 940px;
